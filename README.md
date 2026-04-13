@@ -68,7 +68,7 @@ Verifica que el servidor esté activo.
 
 Respuesta:
 
-Backend PRO funcionando 🚀
+Backend funcionando 
 
 ---
 
