@@ -5,7 +5,7 @@ export async function chatHandler(req, res) {
   try {
     const { message, userId = "default" } = req.body;
 
-    // 🔐 Validaciones
+    // Validaciones
     if (!message || message.trim() === "") {
       return res.status(400).json({ error: "Mensaje vacío" });
     }
@@ -14,11 +14,11 @@ export async function chatHandler(req, res) {
       return res.status(400).json({ error: "Mensaje demasiado largo" });
     }
 
-    // 🧠 Obtener historial
+    // Obtener historial
     addMessage(userId, "user", message);
     const history = getConversation(userId);
 
-    // 🤖 Obtener respuesta IA
+    // Obtener respuesta IA
     const reply = await getClaudeResponse(history);
 
     // Guardar respuesta
