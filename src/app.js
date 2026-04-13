@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Backend PRO funcionando 🚀");
+  res.send("Backend funcionando");
 });
 
 app.post("/chat", chatHandler);
