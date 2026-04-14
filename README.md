@@ -157,7 +157,6 @@ Enviar 🚀
 - 🔐 Autenticación con JWT
 - 📊 Logs y monitoreo
 - 🌐 Integración con frontend
-- ⚡ Rate limiting
 
 ---
 
