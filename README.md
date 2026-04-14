@@ -15,6 +15,13 @@ Backend de chatbot inteligente desarrollado con Node.js y Express, que utiliza l
 
 ---
 
+Importante:
+
+Debes crearte una cuenta en Anthropic y generar tu propia API Key.
+Ten en cuenta que el uso de la API requiere saldo o suscripción.
+
+---
+
 ⚙️ Instalación
 
 1. Clona el repositorio:
@@ -25,12 +32,14 @@ git clone https://github.com/Patogol35/Chatbot
 
 ```
 
+2. Ingresa a la carpeta del proyecto:
+
 ```bash
 cd chatbot
 
 ```
 
-2. Instala dependencias:
+3. Instala dependencias:
 
 ```bash
 
@@ -38,7 +47,7 @@ npm install
 
 ```
 
-3. Crea un archivo ".env" en la raíz:
+4. Crea un archivo ".env" en la raíz y pon la API de Anthropic:
 
 ```bash
 
