@@ -154,7 +154,7 @@ Enviar 🚀
 
 🚀 Mejoras futuras
 
-- 🔄 Persistencia con base de datos (MySQL o MongoDB)
+- 🔄 Persistencia con base de datos (MySQL)
 - 🔐 Autenticación con JWT
 - 📊 Logs y monitoreo
 - 🌐 Integración con frontend
