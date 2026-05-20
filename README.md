@@ -132,12 +132,13 @@ Enviar 🚀
 
 🧠 Cómo funciona
 
-1. El usuario envía un mensaje
-2. Se guarda en memoria (por userId)
-3. Se obtiene el historial de conversación
-4. Se envía a Claude AI
-5. Se devuelve la respuesta generada
-6. Se guarda la respuesta en memoria
+1. El usuario envía un mensaje.
+2. El mensaje se guarda en memoria utilizando el userId.
+3. Se obtiene el historial de conversación.
+4. El historial se envía a Claude AI.
+5. Claude genera una respuesta contextual.
+6. La respuesta se devuelve al usuario.
+7. La respuesta también se guarda en memoria.
 
 ---
 
